@@ -1,2 +1,2 @@
-# yelp_health_data_curation_ops
- An AWS-based data pipeline to extract, process, store, and monitor Yelp "health-related" facility data to support ongoing and future health system initiatives.
+# Yelp Health Data Curation - An AWS-based data pipeline to extract, process, store, and monitor Yelp "health-related" facility data to support ongoing and future health system initiatives.
+ * **Description**: Extract Yelp-provided daily database snapshots of all "health-related" facilities and reviews from Yelp-owned S3 bucket, unzip and process JSON files on CDH-owned EC2 instance, save unprocessed raw files and processed master files in corresponding CDH-owned S3 buckets with appropriate storage classes to minimize costs.
