@@ -67,7 +67,7 @@ CDH_BUCKET_MASTER = 'yelp-master-files'
 
 
 # Paths
-PROJECT_PATH = '/Users/arthurpelullo/Desktop/career/portfolio/public_portfolio/yelp_health_data_curation_ops/'
+PROJECT_PATH = '/' # replace as needed
 
 DATA_PATH = PROJECT_PATH + 'data/'
 OUTPUT_PATH = PROJECT_PATH + 'output/'
